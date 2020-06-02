@@ -1,8 +1,9 @@
 const express = require('express')
 const Router =  express.Router()
+const {signout} = require("../controllers/auth")
 
-Router.get('/signout' , (req,res)=>{
-    res.send("this is the Singup page");
-})
+
+
+Router.get('/signout' , signout )
 
 module.exports = Router;
