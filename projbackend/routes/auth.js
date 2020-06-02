@@ -1,9 +1,9 @@
 const express = require('express')
 const Router =  express.Router()
-const {signout} = require("../controllers/auth")
+const {signout , signup} = require("../controllers/auth")
 
 
-
-Router.get('/signout' , signout )
+Router.post('/signup' , signup );
+Router.get('/signout' , signout );
 
 module.exports = Router;
