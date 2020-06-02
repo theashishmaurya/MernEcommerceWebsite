@@ -28,4 +28,4 @@ app.use("/api" , authRoute);
 
 
 // Connecting to Server 
-app.listen (port , ()=> console.log(`APP is listeninig on port ${port}`)); 
+app.listen (port , ()=> console.log(`APP is listeninig on port ${port}  http://localhost:8000/` )); 
