@@ -1,3 +1,6 @@
 # Ignore files related to api keys 
 projbackend/.env
 
+# Ignore resouce file 
+Resources
+
