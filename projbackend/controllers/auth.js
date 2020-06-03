@@ -13,7 +13,12 @@ exports.signup = (req , res )=>{
             });
 
         }
-        res.json(user);
+        res.json({
+            name : user.name ,
+            lastname : user.lastname,
+            email : user.email 
+
+        });
     });
 }
 exports.signout = (req,res)=>{
